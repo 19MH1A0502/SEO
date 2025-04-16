@@ -518,3 +518,189 @@ body {
     padding: 0.5rem;
   }
   
+
+  @media screen and (max-width: 1024px) {
+    .edu-container, .for-steps {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .test-card {
+      width: 80%;
+      margin-bottom: 2rem;
+    }
+  
+    .test-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+    .edu-container .edu-card,
+    .steps {
+      width: 80vw;
+    }
+  
+    .edu-container img {
+      width: 80vw;
+      height: auto;
+    }
+
+    .hero-content {
+      transform: translate(-50%, -50%);
+      text-align: center;
+      padding: 1rem;
+    }
+  
+    .hero-content .hero-text {
+      font-size: 2.2rem;
+    }
+  
+    .hero-content p {
+      font-size: 1.3rem;
+    }
+  
+    .hero-button {
+      font-size: 1.2rem;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+      margin-top: 3rem;
+      margin-bottom: 5rem;
+    }
+  
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 5rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo-img {
+      height: 40px;
+    }
+  
+    .card-container {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .card {
+      width: 90%;
+      max-width: none;
+      margin-bottom: 2rem;
+    }
+  
+    #second-card {
+      width: 90%;
+      height: 250px;
+      margin-bottom: 1rem;
+    }
+  
+    .hero-content {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    .hero-content .hero-text {
+      font-size: 1.8rem;
+    }
+  
+    .hero-content p {
+      font-size: 1.2rem;
+    }
+  
+    .hero-button {
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+    }
+  
+    .second-p {
+      width: 90%;
+      height: auto;
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  
+    .social_icon {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .hero-content .hero-text {
+      font-size: 1rem;
+    }
+  
+    .hero-content p {
+      font-size: 1rem;
+    }
+  
+    .hero-button {
+      font-size: 0.9rem;
+      padding: 0.4rem 0.8rem;
+    }
+  
+    .content-text {
+      font-size: 1rem;
+      padding: 1rem;
+    }
+  
+    .card-image {
+      height: 220px;
+    }
+  
+    footer .footer-links a {
+      display: block;
+      margin: 0.5rem 0;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .edu-container .edu-card,
+    .steps {
+      width: 90vw;
+      padding: 1rem;
+    }
+  
+    .edu-container img,
+    .step-img,
+    .stem-how-img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .steps .step {
+      font-size: 1.5rem;
+    }
+  
+    .stem-info p {
+      font-size: 1.1rem;
+    }
+  
+    .stem-list {
+      font-size: 1rem;
+      padding: 1rem;
+    }
+
+    .test-card {
+      width: 90%;
+      padding: 0.5rem;
+    }
+  
+    .test-text {
+      font-size: 1.1rem;
+    }
+  
+    .test-card-image {
+      height: auto;
+    }
+  }
+  
